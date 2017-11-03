@@ -45,7 +45,6 @@ Elephant.prototype.addTrick = function(newTrick){
 }
 
 Elephant.prototype.play = function(){
-
   var randomTrick = this.tricks[(Math.floor(Math.random() * this.tricks.length))]
   console.log(`${this.name} is ${randomTrick}`)
 }
