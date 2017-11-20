@@ -1,0 +1,48 @@
+body {
+  background: black
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: url("splash.jpg");
+  height: 700px;
+  width: 100%;
+  background-size: 100% cover;
+
+}
+
+.title {
+  font-family: cursive;
+  color: white;
+  margin: 70px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+header {
+  background: black;
+  height: 20px;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: red;
+  background: orange;
+  border-radius: 5px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.getit {
+  background: pink;
+  padding: 10px;
+  font-family: cursive;
+}
